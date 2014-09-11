@@ -8,5 +8,8 @@
         android:orderInCategory="100"
         android:title="@string/menu_logout_label"
         app:showAsAction="never"/>
-
+	
+    <item 
+        android:id="@+id/action_edit_friends"
+        android:title="@string/menu_edit_friends_label"/>
 </menu>
