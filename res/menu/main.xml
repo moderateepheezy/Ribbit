@@ -3,13 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.simpumind.ribbit.MainActivity" >
 
-    <item
-        android:id="@+id/action_logout"
-        android:orderInCategory="100"
-        android:title="@string/menu_logout_label"
-        app:showAsAction="never"/>
+    
 	
     <item 
-        android:id="@+id/action_edit_friends"
-        android:title="@string/menu_edit_friends_label"/>
+        android:id="@+id/action_edit_friends"       
+        android:orderInCategory="300" 
+        android:title="@string/menu_edit_friends_label"
+        app:showAsAction="never"/>
+    
+    <item android:id="@+id/action_logout" 
+        android:orderInCategory="200" 
+        android:title="@string/menu_logout_label" 
+        app:showAsAction="never" />
+    <item 
+        android:id="@+id/action_camera" 
+        android:orderInCategory="100" 
+        android:title="@string/menu_camera_label" 
+        android:icon="@drawable/camera" 
+        android:showAsAction="always"></item>
 </menu>

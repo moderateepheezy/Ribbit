@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int camera_choices=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1077,7 +1080,8 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int camera=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1087,13 +1091,13 @@ containing a value of this type.
         public static final int action_bar_root=0x7f05001a;
         public static final int action_bar_subtitle=0x7f050023;
         public static final int action_bar_title=0x7f050022;
+        public static final int action_camera=0x7f050045;
         public static final int action_context_bar=0x7f05001d;
-        public static final int action_edit_friends=0x7f050045;
+        public static final int action_edit_friends=0x7f050043;
         public static final int action_logout=0x7f050044;
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050043;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1210,10 +1214,9 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f03001e;
     }
     public static final class menu {
-        public static final int edit_friends=0x7f0c0000;
-        public static final int login=0x7f0c0001;
-        public static final int main=0x7f0c0002;
-        public static final int sign_up=0x7f0c0003;
+        public static final int login=0x7f0d0000;
+        public static final int main=0x7f0d0001;
+        public static final int sign_up=0x7f0d0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1261,11 +1264,13 @@ containing a value of this type.
         public static final int email_hint=0x7f0a0019;
         public static final int empty_friends_label=0x7f0a0020;
         public static final int empty_inbox_label=0x7f0a001f;
+        public static final int error_external_storage=0x7f0a0026;
         public static final int error_title=0x7f0a0024;
         public static final int hello_world=0x7f0a0011;
         public static final int login=0x7f0a0016;
         public static final int login_error_message=0x7f0a001d;
         public static final int login_error_title=0x7f0a001e;
+        public static final int menu_camera_label=0x7f0a0025;
         public static final int menu_edit_friends_label=0x7f0a0021;
         public static final int menu_logout_label=0x7f0a0012;
         public static final int password_hint=0x7f0a0015;
